@@ -1,0 +1,29 @@
+[[main]]
+name = "Home"
+identifier = "home"
+url = "/"
+weight = 1
+
+[[main]]
+name = "Features"
+identifier = "features"
+url = "/features"
+weight = 2
+
+[[main]]
+name = "Pricing"
+identifier = "pricing"
+url = "/pricing"
+weight = 3
+
+[[main]]
+name = "Admin"
+identifier = "admin"
+url = "/admin"
+weight = 4
+
+[[main]]
+name = "Login"
+identifier = "login"
+url = "/login"
+weight = 5
