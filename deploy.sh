@@ -46,7 +46,21 @@ echo "Cleaning published files"
 clear_worktree
 
 echo "Generating site"
+
+# Preserve the .git file since Hugo's cleanDestinationDir will delete it
+GIT_FILE="$WORKTREE_DIR/.git"
+GIT_FILE_BACKUP="/tmp/.git.backup.$$"
+if [ -f "$GIT_FILE" ]; then
+  cp "$GIT_FILE" "$GIT_FILE_BACKUP"
+fi
+
 "$HUGO_BIN" --config config.toml --destination "$WORKTREE_DIR" --minify
+
+# Restore the .git file
+if [ -f "$GIT_FILE_BACKUP" ]; then
+  cp "$GIT_FILE_BACKUP" "$GIT_FILE"
+  rm "$GIT_FILE_BACKUP"
+fi
 
 touch "$WORKTREE_DIR/.nojekyll"
 

@@ -17,4 +17,9 @@ build:
 clean:
 	rm -rf public resources .hugo_build.lock
 
-.PHONY: default start start-watch watch build clean
+deploy:
+	rm -rf .git/worktrees /tmp/comentarismo-*
+	git worktree prune
+	./deploy.sh
+
+.PHONY: default start start-watch watch build clean deploy
