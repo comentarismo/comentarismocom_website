@@ -1,29 +1,23 @@
 [[main]]
-name = "Home"
-identifier = "home"
-url = "/"
-weight = 1
-
-[[main]]
 name = "Features"
 identifier = "features"
-url = "/features"
-weight = 2
+url = "/features/"
+weight = 10
 
 [[main]]
 name = "Pricing"
 identifier = "pricing"
-url = "/pricing"
-weight = 3
+url = "/pricing/"
+weight = 20
 
 [[main]]
-name = "Admin"
-identifier = "admin"
-url = "/admin"
-weight = 4
+name = "About"
+identifier = "about"
+url = "/about/"
+weight = 30
 
 [[main]]
-name = "Login"
-identifier = "login"
-url = "/login"
-weight = 5
+name = "Contact"
+identifier = "contact"
+url = "/contact/"
+weight = 40

@@ -1,90 +1,159 @@
 {{ define "main" }}
-<div class="container-fluid main">
-    <div class="row">
-        {{ partial "sidemenu.html" . }}
-        <div class="pages col-xs-9">
-            <div class="row">
-                <div class="col-xs-10">
-                    <div class="well page active" id="about">
-                        <h1 class="header">Material Design for Bootstrap</h1>
+<body data-spy="scroll" data-target="#page-nav">
 
-                        <p>Material Design for Bootstrap is a theme for Bootstrap 3 which lets you use the new
-                            <a href="http://www.google.com/design/spec/material-design/" target="_blank">Google Material
-                                Design</a> in your favorite front-end framework.
-                        </p>
-
-                        <p>If you like this project you can support me by donating something on Gratipay, starring this
-                            repository, or
-                            <a href="https://github.com/FezVrasta/bootstrap-material-design/issues">reporting bugs and
-                                ideas</a>.</p>
-
-                        <p>Read more about Material Design for Bootstrap at the
-                            <a href="https://github.com/FezVrasta/bootstrap-material-design">Github page</a>.</p>
-
-                        <br>
-
-                        <p>If you want support the development of this project please consider donate something:</p>
-                        <a href="https://www.gratipay.com/FezVrasta/" target="_blank" class="btn btn-primary">Donate
-                            with Gratipay</a>
-
-                        <form action="https://www.paypal.com/cgi-bin/webscr" id="paypal" method="post" target="_blank"
-                              style="display: inline-block;">
-                            <input type="hidden" name="cmd" value="_s-xclick">
-
-                            <div class="btn btn-primary">
-                                <select name="hosted_button_id"
-                                        title="I can't accept less than 5 euro due to accounting troubles">
-                                    <option value="DAAK965W2DKYE">&euro; 5,00</option>
-                                    <option value="28PH77JK5QWFE">&euro; 10,00</option>
-                                    <option value="6B6TJAJ2R99HS">&euro; 15,00</option>
-                                    <option value="GJCEKCQFMBVHA">&euro; 20,00</option>
-                                    <option value="U7QXM95C8RJ9W">&euro; 25,00</option>
-                                    <option value="55S3VBB3U4NAS">&euro; 50,00</option>
-                                </select>
-                                <input type="submit" value="DONATE WITH PAYPAL" name="submit">
-                            </div>
-                        </form>
-                        <p>Thanks to all the people that donate me weekly on Gratipay and all the ones which has donated
-                            on PayPal! You are great guys!</p>
-
-                        <br>
-
-                        <p>Would you like to use this theme for commercial projects? Visit
-                            <a href="http://www.mywebexpression.com">MyWebExpression</a> and contact me using the form
-                            on the bottom of the page. Thanks!
-                        </p>
-
-                    </div>
-                    <div class="well page" id="getting-started">
-                        <h1 class="header">Getting Started</h1>
-
-                        <h3>Download</h3>
-                        <hr>
-                        <h4>Install with NPM - Coming Soon</h4>
-
-                        <p>You can also install and manage Material Bootstrap using NPM</p>
-                        <pre><code>npm install</code></pre>
-                        <h4>Install with Bower</h4>
-
-                        <p>You can also install and manage Material Bootstrap using Bower</p>
-                        <pre><code>bower install bootstrap-material-design</code></pre>
-
-                    </div>
-                </div>
-                <div class="col-xs-2">
-                    <button type="button" class="btn btn-fab btn-material-grey-200 opensource">
-                        <i class="material-icons">grade</i>
-                    </button>
-                </div>
+    <section class="promo-section section section-on-bg">
+        <div class="hero-slider-wrapper">
+            <div class="flexslider hero-slider">
+                <ul class="slides">
+                    <li class="slide slide-1"></li>
+                </ul>
             </div>
-        </div>
-    </div>
-</div>
+            <div class="hero-slider-mask"></div>
+        </div><!--//hero-slider-wrapper-->
+        <div class="container promo-content">
+            <h2 class="headline">Get more <br> from your <br> website comments. </h2>
+            <p class="tagline">Meet people behind and <br> find common ground.</p>
+            <div class="actions">
+                <a class="btn btn-cta btn-primary" href="#" data-toggle="modal" data-target="#signup-modal">Sign up for free</a>
+                <br class="visible-xs-block">
+            </div>
+        </div><!--//container-->
+    </section><!--//promo-section-->
 
-<script src="/admin-dist/js/bootstrap.min.js"></script>
-<script src="/admin-dist/js/material.js"></script>
-<script src="/admin-dist/js/ripples.min.js"></script>
-<script>
-    $.material.init();
-</script>
+    <div class="page-nav-space-holder hidden-xs">
+        <div id="page-nav-wrapper" class="page-nav-wrapper text-center">
+            <div class="container">
+                <ul id="page-nav" class="nav page-nav list-inline">
+                    <li><a class="scrollto" href="#overview-section">Overview</a></li>
+                    <li><a class="scrollto"  href="#features-section">Key Features</a></li>
+                    <li><a class="scrollto"  href="#signup-section">Get Started</a></li>
+                    <li><a class="scrollto"  href="#support-section">Support</a></li>
+                </ul><!--//page-nav-->
+            </div>
+        </div><!--//page-nav-wrapper-->
+    </div><!--//page-nav-space-holder-->
+
+    <section id="overview-section" class="overview-section section">
+        <div class="section-intro">
+            Whether you want to build up a body of reliable commentary for your brand,<br>
+            or already have generated social comments and reviews, <br>
+            we are here to help you make sense of it.
+        </div><!--//section-intro-->
+        <div class="figures-wrapper">
+            <div class="container text-center">
+                <figure class="macbook-screen"><img class="img-responsive" src="/assets/images/desktop-comentarismo.png" alt=""></figure>
+                <figure class="ipad-screen"><img class="img-responsive" src="/assets/images/tablet-comentarismo.png" alt=""></figure>
+                <figure class="iphone-screen"><img class="img-responsive" src="/assets/images/mobile-comentarismo.png" alt=""></figure>
+            </div><!--//container-->
+        </div><!--//figures-wrapper-->
+        <div class="benefits-wrapper">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="item col-xs-12 col-sm-4">
+                        <div class="item-inner">
+                            <img class="item-icon" src="/assets/images/icons/view.svg" alt="">
+                            <h3 class="item-title">VIEWER</h3>
+                            <div class="item-desc">
+                                Take a tour of your brand's feed. Have an overview of people connected to it in different ways. Explore the data and identify the problems.
+                            </div>
+                        </div><!--//item-inner-->
+                    </div><!--//item-->
+                    <div class="item col-xs-12 col-sm-4">
+                        <div class="item-inner">
+                            <img class="item-icon" src="/assets/images/icons/connect.svg" alt="">
+                            <h3 class="item-title">Engage with your users</h3>
+                            <div class="item-desc">
+                                Navigate through comments and likes, reply back or share comment items. Interact with all users from one place.
+                            </div>
+                        </div><!--//item-inner-->
+                    </div><!--//item-->
+                    <div class="item col-xs-12 col-sm-4">
+                        <div class="item-inner">
+                            <img class="item-icon" src="/assets/images/icons/grow.svg" alt="">
+                            <h3 class="item-title">Measure what matters</h3>
+                            <div class="item-desc">
+                                Look beyond the number of likes or comments you get on an ad campaign, product release, blog post, or video. Filter your comments based on sentiment, keywords and topics.
+                            </div>
+                        </div><!--//item-inner-->
+                    </div><!--//item-->
+                </div><!--//row-->
+            </div><!--//container-->
+        </div><!--//benefits-->
+        <div class="press-wrapper">
+            <div class="container">
+               <div class="logos row">
+                   <a href="//comentarismo.com" class="logo col-xs-6 col-sm-3"><img class="img-responsive" src="/assets/images/logos/comentarismo-grey.png" alt="comentarismo-logo"></a>
+                   <div href="//wordpress.org" class="logo col-xs-6 col-sm-3"><img class="img-responsive-wordpress" src="/assets/images/logos/wordpress-logo.png" alt=""></div>
+               </div>
+            </div><!--//container-->
+        </div><!--//press-wrapper-->
+    </section><!--//overview-section-->
+
+    <section id="features-section" class="features-section section">
+        <h2 class="section-title">
+            Key Features
+        </h2>
+        <div class="container">
+            <div class="row">
+                <div class="features-content-wrapper col-xs-12 col-sm-7 com-md-7">
+                    <div class="intro">
+                    </div><!--//intro-->
+                    <ul class="feature-list list-unstyled">
+                        <li><img class="tick-icon" src="/assets/images/tick.svg" alt=""> install on any website in a minute </li>
+                        <li><img class="tick-icon" src="/assets/images/tick.svg" alt=""> customizable - get your own version </li>
+                        <li><img class="tick-icon" src="/assets/images/tick.svg" alt=""> multi-lingual support </li>
+                        <li><img class="tick-icon" src="/assets/images/tick.svg" alt=""> real-time discussions, upvotes, downvotes, threaded replies </li>
+                        <li><img class="tick-icon" src="/assets/images/tick.svg" alt=""> receive alerts for replies and new comments via e-mail notifications </li>
+                        <li><img class="tick-icon" src="/assets/images/tick.svg" alt=""> data visualization, spam detection, search and recommendation tool </li>
+                        <li><img class="tick-icon" src="/assets/images/tick.svg" alt=""> text analysis: keywords tracking, sentiment score, topics classification, syntax and entities </li>
+                    </ul><!--//feature-list-->
+                </div><!--//features-content-wrapper-->
+            </div><!--//row-->
+        </div><!--//container-->
+
+        <div class="features-figure-wrapper">
+            <img class="img-responsive" src="/assets/images/desktop-comentarismo.png" alt="">
+        </div><!--//features-figure-wrapper-->
+
+        <div class="action-wrapper text-center">
+            <a href="/features/" class="btn btn-secondary">View all features</a>
+        </div>
+
+    </section><!--//features-section-->
+
+    <section id="signup-section" class="signup-section section">
+        <div class="section-inner">
+            <div class="container text-center">
+                <div class="counter-container">
+                </div><!--//counter-container-->
+
+                <h2 class="counter-desc">Customers Worldwide</h2>
+
+                <div class="form-wrapper">
+                    <h2 class="form-title">Start Your DEMO Today</h2>
+                    <div class="form-box">
+                        <h3 class="form-heading">30 Day Free Trial</h3>
+                        <div class="form-desc">Sign up for a DEMO now, it only takes 1 click</div>
+                        <ul class="social-buttons list-unstyled">
+                            <li><a href="/auth/facebook?plan=DEMO" class="btn btn-social btn-facebook"><i class="fa fa-facebook" aria-hidden="true"></i><span class="btn-text">Sign up with Facebook</span></a></li>
+                            <li><a href="/auth/twitter?plan=DEMO" class="btn btn-social btn-twitter"><i class="fa fa-twitter" aria-hidden="true"></i><span class="btn-text">Sign up with Twitter</span></a></li>
+                            <li><a href="/auth/gplus?plan=DEMO" class="btn btn-social btn-google"><i class="fa fa-google" aria-hidden="true"></i><span class="btn-text">Sign up with Google</span></a></li>
+                            <li><a href="/auth/github?plan=DEMO" class="btn btn-social btn-github"><i class="fa fa-github" aria-hidden="true"></i><span class="btn-text">Sign up with GitHub</span></a></li>
+                        </ul><!--//social-buttons-->
+                    </div><!--//form-box-->
+                </div><!--//form-wrapper-->
+
+            </div><!--//container-->
+        </div><!--//section-inner-->
+    </section><!--//signup-section-->
+
+    <section id="support-section" class="support-section section text-center">
+        <h2 class="section-title">We do not want to keep you waiting.</h2>
+        <div class="section-intro">Our customer success agents are available 24/7 for phone, chat or ticketing support. We invest a lot of technical and human power to make our support always efficient and fast. </div>
+        <div class="team-figure">
+            <img class="img-responsive support-team" src="/assets/images/team.png" alt="">
+        </div><!--//team-figure-->
+    </section><!--//support-section-->
+
+</body>
 {{ end }}

@@ -1,29 +1,19 @@
 <head>
-    <title>Comentarismo - {{ .Title }}</title>
+    <title>Comentarismo{{ if .Title }} - {{ .Title }}{{ end }}</title>
+
+    <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <!-- Mobile support -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Material Design fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-    <!-- Bootstrap -->
-    <link href="/admin-dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Bootstrap Material Design -->
-    <link href="/admin-dist/css/bootstrap-material-design.css" rel="stylesheet">
-    <link href="/admin-dist/css/ripples.min.css" rel="stylesheet">
-
-    <!-- Dropdown.js -->
-    <link href="/admin-dist/css/jquery.dropdown.css" rel="stylesheet">
-
-    <!-- Page style -->
-    <link href="/admin-dist/index.css" rel="stylesheet">
-
-    <!-- jQuery -->
-    <script src="/admin-dist/js/jquery-1.10.2.min.js"></script>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet">
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="/assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="/assets/plugins/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="/assets/plugins/flexslider/flexslider.css">
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="/assets/css/styles.css">
 </head>

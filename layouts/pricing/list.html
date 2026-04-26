@@ -1,0 +1,229 @@
+{{ define "main" }}
+<body class="pricing-page"  data-spy="scroll" data-target="#page-nav">
+
+    <section class="heading-section section section-on-bg">
+        <div class="hero-wrapper">
+            <div class="hero-holder"></div>
+            <div class="hero-mask-gradient"></div>
+        </div><!--//hero-wrapper-->
+        <div class="container heading-content">
+            <h2 class="headline">Our Pricing is Simple and Flexible</h2>
+            <div class="intro">You can change your plan at any time.</div>
+
+            <div class="actions">
+                 <a class="scrollto" href="#pricing-block">VIEW PLANS</a>
+                 <a class="scrollto" href="#pricing-block"><img src="/assets/images/arrow-icon.svg" alt=""></a>
+            </div><!--//actions-->
+        </div><!--//container-->
+    </section><!--//heading-section-->
+
+    <div class="page-nav-space-holder hidden-xs">
+        <div id="page-nav-wrapper" class="page-nav-wrapper text-center">
+            <div class="container">
+                <ul id="page-nav" class="page-nav nav list-inline">
+                    <li><a class="scrollto" href="#demo-block">DEMO</a></li>
+                    <li><a class="scrollto" href="#pricing-block">Pricing</a></li>
+                    <li><a class="scrollto"  href="#faqs-block">FAQs</a></li>
+                </ul><!--//page-nav-->
+            </div>
+        </div><!--//page-nav-wrapper-->
+    </div><!--//page-nav-space-holder-->
+
+    <div class="pricing-block" id="demo-block">
+        <div class="container">
+            <h2 class="block-heading text-center">Try our DEMO today. </h2>
+            <div class="row">
+
+                <div class="item item-3 item-popular col-xs-12 col-sm-12 col-md-12">
+                    <div class="item-inner">
+                        <div class="summary-box text-center">
+                            <h3 class="item-heading">DEMO VERSION</h3>
+                            <div class="item-intro"> For Enterprise businesses </div>
+                            <a class="btn btn-secondary btn-ghost" href="/signup?plan=DEMO">
+                                <div class="price">
+                                    <span class="number"> DEMO </span>
+                                    <span class="currency"> </span>
+                                </div><!--//price-->
+                            </a>
+                            <div class="unit">Request a demo now</div>
+                        </div><!--//summary-box-->
+                    </div><!--//item-inner-->
+            </div><!--//row-->
+        </div><!--//container-->
+    </div><!--//pricing-block-->
+
+    <div class="pricing-block" id="pricing-block">
+        <div class="container">
+            <h2 class="block-heading text-center"> Choose the plan that is right for you. </h2>
+            <div class="row">
+                <div class="item item-1 col-xs-12 col-sm-6 col-md-6">
+                    <div class="item-inner">
+                        <div class="summary-box text-center">
+                            <h3 class="item-heading">Free</h3>
+                            <div class="item-intro"> For bloggers and self-employed </div>
+                            <div class="price">
+                                <span class="number"> 0  </span>
+                                <span class="currency"> € </span>
+                            </div><!--//price-->
+                            <div class="unit">Per month</div>
+                            <div class="action">
+                                <div class="btn-container"><a href="/signup?plan=FREE" class="btn btn-secondary btn-ghost">SIGN UP NOW</a></div>
+                                <div class="note">(Free access)</div>
+                            </div>
+                        </div><!--//summary-box-->
+                        <div class="details-box">
+                            <ul class="details-list list-unstyled">
+                                <li><i class="fa fa-check" aria-hidden="true"></i> 1 user per account</li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> Unlimited comments</li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> Admin Panel </li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> Dashboard reports and Filtering</li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> Reply to comments </li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> Real-time interaction (Websockets)</li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> Moderate your comments</li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> Fully customizable</li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> (AI) Sentiment analysis</li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> (AI) Community Spam detection</li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> E-mail support</li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> Blockchain ADS platform <label class="label label-new">Comming soon</label></li>
+                            </ul>
+                        </div><!--//details-box-->
+                    </div><!--//item-inner-->
+                </div><!--//item-->
+                <div class="item item-3 item-popular col-xs-12 col-sm-6 col-md-6">
+                    <div class="item-inner">
+                        <div class="summary-box text-center">
+                            <h3 class="item-heading">Enterprise </h3>
+                            <div class="item-intro"> For Enterprise businesses <label class="label label-soon">Comming soon</label></div>
+                            <div class="price">
+                                <span class="number"> - </span>
+                                <span class="currency"> € </span>
+                            </div><!--//price-->
+                            <div class="unit">Contact sales for pricing</div>
+                            <div class="action">
+                                <div class="btn-container"><a class="btn btn-secondary btn-ghost" href="/signup?plan=ENTERPRISE">SIGN UP NOW</a></div>
+                                <div class="note">(Subscribe for early access)</div>
+                            </div>
+                        </div><!--//summary-box-->
+                        <div class="details-box">
+                            <ul class="details-list list-unstyled">
+                                <li><i class="fa fa-check" aria-hidden="true"></i> Unlimited users per account</li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> Unlimited comments </li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> Admin Panel </li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> Reply to comments </li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> Real-time interaction (Websockets)</li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> Moderate your comments</li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> Fully customizable</li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> (AI) Enterprise Sentiment analysis</li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> (AI) Enterprise Spam detection</li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> (AI) Text extraction</li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> (AI) Age detection</li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> (AI) Gender detection</li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> (AI) Topic detection </li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> (AI) Syntax </li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> (AI) Entity recognition</li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> (AI) Advanced Keywords</li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> Dashboard reports and Filtering</li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> BigData visualisation </li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> Unlimited Clipping   <label class="label label-new">Comming soon</label></li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> Unlimited Search Engine </li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> Unlimited Recommendation Engine </li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> Priority and phone support</li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> Instant email notifications </li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> Enterprise Support </li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> Blockchain ADS platform <label class="label label-new">Comming soon</label></li>
+                            </ul>
+                        </div><!--//details-box-->
+                    </div><!--//item-inner-->
+            </div><!--//row-->
+        </div><!--//container-->
+    </div><!--//pricing-block-->
+
+    <div class="faqs-block" id="faqs-block">
+        <div class="container">
+            <h2 class="block-heading text-center">Frequently Asked Questions</h2>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                    <div class="panel">
+                        <div class="panel-heading">
+                            <h4 class="panel-title"><a data-parent="#accordion" data-toggle="collapse" class="panel-toggle" href="#faq4"><i class="fa fa-plus-square"></i>How can I log in?</a></h4>
+                        </div>
+                        <div class="panel-collapse collapse" id="faq4">
+                            <div class="panel-body">
+                                It is simpler than you think. You don't need additional account, sign up with your Facebook, Twitter, Google Plus or GitHub account with only one click.
+                            </div>
+                        </div>
+                    </div><!--//panel-->
+
+                    <div class="panel">
+                        <div class="panel-heading">
+                            <h4 class="panel-title"><a data-parent="#accordion" data-toggle="collapse" class="panel-toggle" href="#faq5"><i class="fa fa-plus-square"></i>Can I import my comments from previous / another web site ?</a></h4>
+                        </div>
+                        <div class="panel-collapse collapse" id="faq5">
+                            <div class="panel-body">
+                                Don't worry! That's our speciality. Send us an email to comentarismobr@gmail.com and include the address of your new and old web site and we will import all the comments for you.
+                            </div>
+                        </div>
+                    </div><!--//panel-->
+
+                    <div class="panel">
+                        <div class="panel-heading">
+                            <h4 class="panel-title"><a data-parent="#accordion" data-toggle="collapse" class="panel-toggle" href="#faq3"><i class="fa fa-plus-square"></i>How can I put the comment box under every blog post?</a></h4>
+                        </div>
+                        <div class="panel-collapse collapse" id="faq3">
+                            <div class="panel-body">
+                                Open the "Settings" page in the Admin Panel and simply copy and paste the code snippet into the source code on every web page you wish to have comment system.The comment box will automatically be inserted.
+                            </div>
+                        </div>
+                    </div><!--//panel-->
+                    <div class="panel">
+                        <div class="panel-heading">
+                            <h4 class="panel-title"><a data-parent="#accordion" data-toggle="collapse" class="panel-toggle collapsed" href="#faq1" aria-expanded="false"><i class="fa fa-plus-square"></i>How do I delete a comment?</a></h4>
+                        </div>
+                        <div class="panel-collapse collapse" id="faq1" aria-expanded="false" style="height: 0px;">
+                            <div class="panel-body">
+                                In order to delete a comment, you have to log in with your username and navigate to "Comments" panel. There you will find the list of all comments you posted. Click "edit" button for the comment you want to delete and in the new pop up window, click the trash icon.
+                            </div>
+                        </div>
+                    </div><!--//panel-->
+                </div>
+                <div class="col-xs-12 col-sm-6">
+
+                    <div class="panel">
+                        <div class="panel-heading">
+                            <h4 class="panel-title"><a data-parent="#accordion" data-toggle="collapse" class="panel-toggle" href="#faq6"><i class="fa fa-plus-square"></i>I upgraded the plan, but I don't see the new features. What can I do?</a></h4>
+                        </div>
+                        <div class="panel-collapse collapse" id="faq6">
+                            <div class="panel-body">
+                                You may need to refresh or close and re-open your account for the upgraded status to show up.
+                            </div>
+                        </div>
+                    </div><!--//panel-->
+
+                    <div class="panel">
+                        <div class="panel-heading">
+                            <h4 class="panel-title"><a data-parent="#accordion" data-toggle="collapse" class="panel-toggle" href="#faq7"><i class="fa fa-plus-square"></i>Can I use comentarismo plugin for my online store? </a></h4>
+                        </div>
+                        <div class="panel-collapse collapse" id="faq7">
+                            <div class="panel-body">
+                               For sure! Add the snippet to your "Product Page" and start collecting reviews for each of your shop's products.
+                            </div>
+                        </div>
+                    </div><!--//panel-->
+
+                    <div class="panel">
+                        <div class="panel-heading">
+                            <h4 class="panel-title"><a data-parent="#accordion" data-toggle="collapse" class="panel-toggle" href="#faq8"><i class="fa fa-plus-square"></i>Have other questions?</a></h4>
+                        </div>
+                        <div class="panel-collapse collapse" id="faq8">
+                            <div class="panel-body">
+                                Please contact us at comentarismobr@gmail.com. Thank you!
+                            </div>
+                        </div>
+                    </div><!--//panel-->
+                </div>
+            </div><!--//row-->
+        </div>
+    </div><!--//faqs-block-->
+
+</body>
+{{ end }}
