@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="98px" height="114px" viewBox="0 0 98 114" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-logo-comentarismo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-10.000000, -7.000000)">
+            <g id="icon-logo-comentarismo" transform="translate(10.000000, 7.000000)">
+                <path d="M3.73660854,6.43528525 C1.73944111,6.43528525 0.12058867,5.13159406 0.12058867,3.52380212 C0.12058867,1.91544702 1.73944111,0.611755833 3.73660854,0.611755833 L83.5659638,0.611755833 C85.5631312,0.611755833 87.1819837,1.91544702 87.1819837,3.52380212 C87.1819837,5.13159406 85.5631312,6.43528525 83.5659638,6.43528525 L3.73660854,6.43528525 Z" id="Fill-96" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path d="M0.12058867,86.7900357 L0.12058867,14.4182329 C0.12058867,12.6076382 1.42427985,11.1400168 3.0320718,11.1400168 C4.64042689,11.1400168 5.94411808,12.6076382 5.94411808,14.4182329 L5.94411808,86.7900357 C5.94411808,88.6006304 4.64042689,90.0682518 3.0320718,90.0682518 C1.42427985,90.0682518 0.12058867,88.6006304 0.12058867,86.7900357" id="Fill-96-Copy" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path d="M91.42293,4.230709 C91.42293,2.13779333 92.784563,0.441329829 94.4638124,0.441329829 C96.1436499,0.441329829 97.5052834,2.13779333 97.5052834,4.230709 L97.5052834,87.8872448 C97.5052834,89.9801605 96.1436499,91.676624 94.4638124,91.676624 C92.784563,91.676624 91.42293,89.9801605 91.42293,87.8872448 L91.42293,4.230709 L91.42293,4.230709 Z" id="Fill-96-Copy-2" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <polyline id="Line" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" points="24.457525 87.7953014 24.457525 110.476974 38.110023 87.7953014 84.8023718 88.0329112 38.110023 88.0329112"></polyline>
+                <path d="M12.880691,87.0277872 L23.9162791,87.0277872" id="Path-280" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="bevel"></path>
+            </g>
+        </g>
+    </g>
+</svg>
